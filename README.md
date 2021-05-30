@@ -1,6 +1,6 @@
 # NodeJs ExpressJs MySQL Ready-to-use API Project Structure
 
-[![Author](http://img.shields.io/badge/author-@lucascaniggia-blue.svg)](https://www.linkedin.com/in/lucascaniggia/) [![Codacy Badge](https://github.com/lucascaniggia)](https://img.shields.io/badge/code%20quailty-B-green) ![](https://img.shields.io/badge/build-passing-brightgreen)
+[![Author](http://img.shields.io/badge/author-@lucascaniggia-blue.svg)](https://www.linkedin.com/in/lucascaniggia/) ![(https://github.com/lucascaniggia)](https://img.shields.io/badge/code%20quailty-B-green) ![](https://img.shields.io/badge/build-passing-brightgreen)
 
 A ready-to-use film and character's exploration REST API Development with Node.js, Express and MySQL.
 
@@ -12,13 +12,13 @@ This project will run on **NodeJs** using **MySQL** as database and Sequelize as
 
 ## Advertise for Job/Work Contract
 
-I am open for a good job or work contract. You can contact me directly on my email ([lucascaniggia5@gmail.com](mailto:lucascaniggia5@gmail.com "lucascaniggia5@gmail.com")).
+I am open for job offers or interviews. You can contact me directly on my email ([lucascaniggia5@gmail.com](mailto:lucascaniggia5@gmail.com "lucascaniggia5@gmail.com")).
 
 ## Features
 
 - Basic Authentication (Register/Login with hashed password)
 - Encrypted passwords using `bcryptjs`
-- JWT Tokens, make requests with a token after login with `Authorization` header, in where `secret phrase` will be returned in Login response.
+- JWT Tokens, make requests with a token after login with `Authorization` header, where `secret phrase` will be returned in Login response.
 - Pre-defined response structures with proper status codes.
 - Includes **CRUD** operations.
 - Validations added.
@@ -84,7 +84,8 @@ You can run the API by running in your terminal
 npm start
 ```
 
-You will know server is running by checking the output of the command `npm start`
+You will know server is running by checking the output of the command
+`npm start`
 
 ```bash
 starting 'node index.js'
@@ -93,7 +94,7 @@ Server on port 3000
 Sinchronized tables
 ```
 
-Please remind that you can stop the process by presssing CTRL + C.
+Please remind that you can stop the process by presssing Ctrl + C.
 
 ## Using Sequelize
 
