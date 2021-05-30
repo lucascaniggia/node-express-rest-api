@@ -6,8 +6,11 @@ module.exports = (sequelize, type) => {
             autoIncrement: true
         },
         title: type.STRING,
-        description: type.STRING,
+        description: type.TEXT,
         score: type.INTEGER,
-        director: type.STRING
+        director: type.STRING,
+        picture: type.BLOB,
+        dateOfRelease: type.DATE,
+        relatedCharacters: type.STRING
     })
 };
